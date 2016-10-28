@@ -202,11 +202,12 @@
 		5C8E97DA1DC1F0AA000932A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "赵凯";
 				TargetAttributes = {
 					5C8E97E11DC1F0AA000932A2 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G8SS9MUVYA;
 						ProvisioningStyle = Automatic;
 					};
 					5C8E97FA1DC1F0AB000932A2 = {
@@ -348,6 +349,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -396,6 +398,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8SS9MUVYA;
 				INFOPLIST_FILE = CaptureScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Strong.CaptureScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8SS9MUVYA;
 				INFOPLIST_FILE = CaptureScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Strong.CaptureScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +514,7 @@
 				5C8E98111DC1F0AB000932A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C8E98121DC1F0AB000932A2 /* Build configuration list for PBXNativeTarget "CaptureScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				5C8E98141DC1F0AB000932A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C8E98151DC1F0AB000932A2 /* Build configuration list for PBXNativeTarget "CaptureScreenUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				5C8E98171DC1F0AB000932A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
