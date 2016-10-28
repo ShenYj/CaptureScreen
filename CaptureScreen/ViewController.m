@@ -50,19 +50,6 @@
 - (void)CaptureScreen{
     
     UIImage* image = nil;
-//    UIGraphicsBeginImageContext(scroll.contentSize);
-//    {
-//        CGPoint savedContentOffset = scroll.contentOffset;
-//        CGRect savedFrame = scroll.frame;
-//        scroll.contentOffset = CGPointZero;
-//        scroll.frame = CGRectMake(0, 0, scroll.contentSize.width, scroll.contentSize.height);
-//        [scroll.layer renderInContext: UIGraphicsGetCurrentContext()];
-//        image = UIGraphicsGetImageFromCurrentImageContext();
-//        scroll.contentOffset = savedContentOffset;
-//        scroll.frame = savedFrame;
-//        
-//    }
-//    UIGraphicsEndImageContext();
     
     // 下面方法，第一个参数表示区域大小。第二个参数表示是否是非透明的。如果需要显示半透明效果，需要传NO，否则传YES。第三个参数就是屏幕密度了，关键就是第三个参数。
     UIGraphicsBeginImageContextWithOptions(scroll.contentSize, YES, [UIScreen mainScreen].scale);
